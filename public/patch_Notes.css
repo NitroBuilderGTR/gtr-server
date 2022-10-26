@@ -1,9 +1,8 @@
 @import 'https://fonts.googleapis.com/css?family=Montserrat';
 * {
   font-family: Montserrat;
-  zoom: 0.97;
+  zoom: 0.98;
 }
-
 
 /* Download Button (Start) */
 .download_btn {
@@ -35,7 +34,6 @@
   transform: translate(-50%, -50%);
   transition: all .25s ease;
 }
-
 .launcher_download_btn {
   appearance: none;
   background-color: #000000;
@@ -93,6 +91,10 @@
   transform: translate(-50%, -50%);
   transition: all .25s ease;
 
+}
+
+.changes-text {
+  text-align: center;
 }
 
 .game_download_btn:hover {  
@@ -175,7 +177,7 @@
 }
 
 #LauncherTitle {
-  top: 29rem;
+  top: 22rem;
   margin-top: 0rem;
   position: fixed;
   font-size: 40px;
@@ -184,7 +186,7 @@
 }
 
 #subtitle_launcher {
-  top: 34.575rem;
+  top: 26rem;
   margin-top: 0rem;
   position: fixed;
   font-size: 23px;
@@ -196,11 +198,11 @@
   margin-left: 1.8rem;
   position: fixed;
   font-size: 20px;
-  margin-top: -19rem;
+  margin-top: -18rem;
 }
 
 #GameTitle { 
-  top: 23.8rem;
+  top: 20rem;
   margin-top: 0rem;
   position: fixed;
   font-size: 40px;
@@ -297,8 +299,7 @@
     text-align: center;
     padding-top: 0rem;
     top: 10%;
-    
-    margin-left: 29.39%;
+    margin-left: 27%;
     font-size: 19px;
     text-decoration: underline;
     font-weight: bold;
@@ -345,8 +346,9 @@
 .container2 {
   padding: 0 190px 20px;
   margin: 0 auto;
-  padding-bottom: 20.5rem;
+  padding-bottom: 10.5rem;
 }
+
 
 .container2:after,
 .container2:before {
