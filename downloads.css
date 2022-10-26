@@ -1,0 +1,75 @@
+* {
+  zoom: 0.96;
+}
+
+
+#app-download-page.container{
+    text-align: center;
+    padding-bottom: 50px;
+  }
+  
+  .app-badges{
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+  #android-badge{
+    height: 60px;
+    margin-top: -30px;
+  }
+  
+  #ios-badge{
+    display:inline-block;
+    overflow:hidden;
+   background:url(https://linkmaker.itunes.apple.com/images/badges/en-us/badge_appstore-lrg.svg) no-repeat;
+    width:135px;
+    height:40px;
+  }
+  
+  @import url(//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css);
+  
+  body {padding-top:20px;}
+  
+  .box {
+    border-radius: 3px;
+    box-shadow: 0 2px 5px 0 rgb(0 0 0 / 16%), 0 2px 10px 0 rgb(0 0 0 / 12%);
+    padding: 10px 25px;
+    margin-top: 60px;
+    height: 30.5rem;
+  }   
+  .box-icon {
+      display: table;
+      margin: 0 auto;
+      width: 100px;
+      margin-top: -61px;
+  }
+  .box-icon span {
+      color: #fff;
+      display: table-cell;
+      text-align: center;
+      vertical-align: middle;
+  }
+  .info h4 {
+      font-size: 32px;
+      letter-spacing: 2px;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+  }
+  .info > p {
+      color: #717171;
+      font-size: 16px;
+      padding-top: 10px;
+      text-align: justify;
+  }
+  #app-download-page .header > a {
+      background-color: #03a9f4;
+      border-radius: 2px;
+      box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+      color: #fff;
+      transition: all 0.5s ease 0s;
+  }
+  #app-download-page .header > a:hover {
+      background-color: #0288d1;
+      box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.16), 0 2px 5px 0 rgba(0, 0, 0, 0.12);
+      color: #fff;
+      transition: all 0.5s ease 0s;
+  }
