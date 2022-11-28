@@ -1,0 +1,67 @@
+html {
+    height: 100%;
+}
+body {
+    background-image: url('../GTR_Server-Update-v4-pre-release-image.png');
+    background-position: center center;
+    background-size: contain /* or background-size: contain */
+   }
+
+   #v4 {
+    position: absolute;
+    left: 1228px;
+    top: 845px;
+    width: 43px;
+    height: 44px;
+    color: #5d00ff;
+    font-family: Montserrat;
+    font-size: 36px;
+    font-weight: 400;
+  }
+  
+  #december20 {
+    position: absolute;
+    left: 1106px;
+    top: 1165px;
+    width: 287px;
+    height: 44px;
+    color: #5d00ff;
+    font-family: Montserrat;
+    font-size: 36px;
+    font-weight: 400;
+  }
+  
+  #gTR_Server {
+    position: absolute;
+    left: 1030px;
+    top: 801px;
+    width: 439px;
+    height: 44px;
+    color: #5d00ff;
+    font-family: Montserrat;
+    font-size: 36px;
+    font-weight: 400;
+  }
+  
+  #gTR {
+    position: absolute;
+    left: 1141px;
+    top: 611px;
+    width: 216px;
+    height: 88px;
+    color: #5d00ff;
+    font-family: Montserrat;
+    font-size: 72px;
+    font-weight: 400;
+  }
+  
+  #rectangle {
+    position: absolute;
+    left: 289px;
+    top: 159px;
+    width: 1920px;
+    height: 1080px;
+    background: linear-gradient(135deg, #00ffe1 0%, #48ff00 100%);
+    background-blend-mode: normal;
+  }
+  
