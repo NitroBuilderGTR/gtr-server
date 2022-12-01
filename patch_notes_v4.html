@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <title>GTR_Server - Version</title>
-  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="./patch_notes-v4.css">
   <meta name="keywords" content="GTR_Server, gtr-server, gtr server, gtr, server, gtr_server, nitrobuildergtr, NitroBuilderGTR">
   <link rel="icon" href="../GTR_Server_Logo_Rounded.png">
   
@@ -28,7 +28,7 @@
       <ul class="menu">
         <li href="index.html"><a href="index.html" class="link link-theme link-arrow">Home</a></li>
         <li href="downloads.html"><a href="downloads.html" class="link link-theme link-arrow">Downloads</a></li>
-        <li><a href="patch_notes_v4.html" class="link link-theme link-arrow">Patch Notes</a></li>
+        <li><a href="" class="link link-theme link-arrow">Patch Notes</a></li>
         <li><a href="news.html" class="link link-theme link-arrow">Announcements</a></li>        
         <li><a href="about.html" class="link link-theme link-arrow" id="mobile-center-title-second">Info / About</a></li>              
         <li><a href="" class="link link-theme link-arrow" id="mobile-center-title">Report a Bug in GTR_Server</a></li>
@@ -42,7 +42,7 @@
       <section class="intro">
 
         <article class="container2">
-          <h1 id="underline">ALPHA</h1>
+          <h1 id="underline">OPEN ALPHA</h1>
 
           <h1>
               GTR_Server <strong> - Patch Notes</strong>
@@ -54,7 +54,7 @@
             
 
           <h2 id="subtitle-home">
-              Release Date: 15th December 2021
+              Version Release Date: 16th December 2021
             </h2>
 
           <p>
@@ -69,12 +69,26 @@
       
       <section class="work">
 
-      <article class="container2" id="one"> <h1>GTR_Server v3.0 Open Alpha - Patch Notes</h1>
+      <article class="container2" id="one"> <h1>GTR_Server: Open Alpha v4 - Patch Notes</h1>
         <a id="center-text"></a>
         
         <p>
-          <a id="center-text-bold">Notes:</a> 1st Ever Public Release. 
+          <a id="center-text-bold">Notes:</a> Mainly new features, and huge map changes
         </p>
+
+        
+        <p id="center-text-bold">Changes:   </p>
+        <h4 class="changes-text"> - Updated Zeon_Launcher, to run the new version of GTR_Server (GTR_Server: Open Alpha v4)</h4>
+        <h4 class="changes-text"> - Added new building. Possibly part of storyline? Lore? Who knows.</h4>
+        <h4 class="changes-text"> - Added The Race Track. Can be found at the right of the spawn building. (FIRST EVER MINIGAME FOR GTR_Server)</h4>
+        <h4 class="changes-text"> - Added Race Lights for the Race Track</h4>
+        <h4 class="changes-text"> - Performance changes. Not sure if it runs better, but I tried to optimise the performance. You can still change your performance settings if GTR_Server doesnt run well for you.</h4>
+        <h4 class="changes-text"> - Added Player-Only and Server-Host-Only Cars.</h4>
+        <h4 class="changes-text"> - Added Player Beds</h4>
+        <h4 class="changes-text"> - Added Player Toilets</h4>
+        <h4 class="changes-text"> - Added Baths</h4>
+        <h4 class="changes-text"> - Added Sinks</h4>
+        <h4 class="changes-text"> - Added Bathrooms to Player Houses</h4>
         <p id="center-text-bold">Bugs</p>
 
         
@@ -86,18 +100,30 @@
       <article class="container" id="two"><h1></h1>
         <a id="underline-bold-text">Major Bugs</a>
         <p></p>
-        <a id="">1) When not running towards Car, you get despawned, and you can't move or use UI. </a>
-        <h3>Solution: Use Run / walk towards the Vehicle when attempting to enter the vehicle. The bug is trying to be fixed.  </h3>
+        <a id="">1) The "Admin Control Panel" doesn't work. This feature isn't finished yet.</a>
+        <h3>Solution: Just don't try to use it -  it doesn't work lol</h3>
 
         <a id="">2) Emergency Respawn Button doesn't work </a>
         <h3>Solution: If you need to respawn press H. If it doesnt work, please restart your application. </h3>
 
-        <a id="">3) FPS / Performance Lag </a>
+        <a id="">3) Stuttering in non-server owner's car </a>
+        <h3>Solution: This is not going to be a easy fix (might take a extremely long time to fix, and there is no guarantee that this gets fixed). So you could stay on the old version (if you have it downloaded), or just wait until it's fixed. The suspected reason on why it stutters is the multiplayer replication being a bit weird for the player cars.</h3>
+        
+        <a id="">4) FPS / Performance Lag </a>
         <h3>Solution: Go to The In - Game Settings. You can then turn shadows to the lowest setting. It may look worse, but it gives more FPS. This is recommended for Lower - End PCs / Devices. </h3>
       </article>
 
       <article class="container" id="three">
-        
+        <a id="underline-bold-text">Bug Fixes (Insane progress)</a>
+        <p></p>
+        <a id="">1) Fixed when running into car, and getting despawned</a>
+        <h3>Solution: The issue was something to do with the server (person who hosted the server) having more "access" or having "priority" to the car, compareed to a player who isn't classed as the server (someone who joined the server instead). This was an easy fix. Now there are 2 types of cars - some for the server owner (The Admin Car), and some for the players (The Player Car).</h3>
+
+        <a id="">2) Chairs being buggy</a>
+        <h3>Solution: Chairs were quite easy to fix - turned out the replication isn't easy to do lol</h3>
+
+        <a id="">3) The Performance is not great near loads of items and/or vehicles</a>
+        <h3>Solution: I have been trying to find a optimisation solution for this. It turned out there was a "null" AI controller that possessed the cars. This was potentially one of the reasons why the performance would be tanked everytime you load in. The performance issue still isn't fixed, but I think the issue has been temporarily solved. The performance still isn't great, but I think it has been made better by around 1% to 10% after removing the AI Controllers from the vehicles.</h3>
       </article>
 
     </section>
@@ -108,7 +134,7 @@
       <div class="container">
         <hr>
         <article class="foot-content-left">
-          <ul>&copy; GTR_Server v3.0 OPEN ALPHA </ul>
+          <ul>&copy; GTR_Server: OPEN ALPHA v4</ul>
         </article>
 
         <article class="foot-content">

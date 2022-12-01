@@ -1,0 +1,1013 @@
+@import 'https://fonts.googleapis.com/css?family=Montserrat';
+* {
+  font-family: Montserrat;
+  zoom: 0.98;
+}
+
+/* Download Button (Start) */
+.download_btn {
+  appearance: none;
+  background-color: #000000;
+  border: 2px solid #1A1A1A;
+  border-radius: 15px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Roobert,-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+  font-size: 16px;
+  font-weight: 600;
+  line-height: normal;
+  margin: 0;
+  min-height: 60px;
+  min-width: 0;
+  outline: none;
+  padding: 16px 24px;
+  text-align: center;
+  text-decoration: none;
+  width: 41%;
+  position: absolute;
+  /* top: 30%; */
+  bottom: 30%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  transition: all .25s ease;
+}
+.launcher_download_btn {
+  appearance: none;
+  background-color: #000000;
+  border: 2px solid #1A1A1A;
+  border-radius: 15px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Roobert,-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+  font-size: 16px;
+  font-weight: 600;
+  line-height: normal;
+  margin: 0;
+  min-height: 60px;
+  min-width: 0;
+  outline: none;
+  padding: 16px 24px;
+  text-align: center;
+  text-decoration: none;
+  position: absolute;
+  /* top: 30%; */
+  bottom: 30%;
+  left: 31.15%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  transition: all .25s ease;
+}
+
+.game_download_btn {
+  appearance: none;
+  background-color: #000000;
+  border: 2px solid #1A1A1A;
+  border-radius: 15px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Roobert,-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+  font-size: 16px;
+  font-weight: 600;
+  line-height: normal;
+  margin: 0;
+  min-height: 60px;
+  min-width: 0;
+  outline: none;
+  padding: 16px 24px;
+  text-align: center;
+  text-decoration: none;
+  position: absolute;
+  /* top: 30%; */
+  bottom: 30%;
+  left: 70.65%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  transition: all .25s ease;
+
+}
+
+.changes-text {
+  text-align: center;
+}
+
+.game_download_btn:hover {  
+  box-shadow: rgb(0, 255, 251) 0 8px 15px;
+  color: aqua;
+
+  transition: all .25s ease;
+}
+
+.launcher_download_btn:hover {  
+  box-shadow: rgb(0, 255, 251) 0 8px 15px;
+  color: aqua;
+
+  transition: all .25s ease;
+}
+
+.launcher_download_btn:active {
+  box-shadow: rgb(140, 255, 0) 0 8px 15px;
+  color:rgb(140, 255, 0);
+}
+
+.game_download_btn:active {
+  box-shadow: rgb(140, 255, 0) 0 8px 15px;
+
+  color:rgb(140, 255, 0);
+  
+}
+
+.column {
+  float: right;
+  -ms-transform: translate(-50%, -50%);
+  
+  padding-right: 11.25rem;
+
+
+  margin-bottom: 8rem;
+  width: 33.33%;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+#zeon-launcher-img {
+  
+}
+
+.work {
+  zoom: 0.9;
+  -moz-transform: scale(2);
+  -moz-transform-origin: 0 0;
+}
+
+.row {
+}
+
+.main {
+  zoom: 0.9;
+  -moz-transform: scale(2);
+  -moz-transform-origin: 0 0;
+}
+
+#button_div {
+  zoom: 0.9;
+  -moz-transform: scale(2);
+  -moz-transform-origin: 0 0;
+}
+
+#button_div2 {
+  zoom: 0.9;
+  -moz-transform: scale(2);
+  -moz-transform-origin: 0 0;
+}
+
+#GTR-launcher-img {
+  padding-left: 5rem;
+}
+
+#LauncherTitle {
+  top: 22rem;
+  margin-top: 0rem;
+  position: fixed;
+  font-size: 40px;
+  text-align: center;
+  padding-left: 5rem;
+}
+
+#subtitle_launcher {
+  top: 26rem;
+  margin-top: 0rem;
+  position: fixed;
+  font-size: 23px;
+  text-align: center;
+  padding-left: 4.5rem;
+}
+
+#subtitle_game {
+  margin-left: 1.8rem;
+  position: fixed;
+  font-size: 20px;
+  margin-top: -18rem;
+}
+
+#GameTitle { 
+  top: 20rem;
+  margin-top: 0rem;
+  position: fixed;
+  font-size: 40px;
+  text-align: center;
+  padding-right: 5rem;
+}
+
+#subtitle-downloads {
+  text-align: center;
+  font-size: 20px;
+}
+
+.container3 {
+  margin: 19rem;
+  padding-top: 3.8rem;
+}
+
+
+.header .logo:hover{
+  transition: .20s ease;
+  color: #00ffc8;
+}
+
+#down_arrow {
+  
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  position: absolute;
+  padding-bottom: 4rem;
+  left: 50%;
+}
+
+#underline {
+  text-decoration: underline;
+}
+
+.download_btn:disabled {
+  pointer-events: none;
+}
+
+.download_btn:active {
+  width: 35%;
+}
+
+.download_btn:hover {
+  box-shadow: rgb(0, 255, 251) 0 8px 15px;
+  color: aqua;
+}
+
+/* Download Button (End) */
+
+/* Logo (Start) */
+
+.logoImg {
+  width: 6px;
+}
+
+#subtitle-home {
+  text-align: center;
+}
+
+#bold-text {
+  font-weight: bold;
+}
+
+#center-text-bold {
+  text-align: center;
+  text-decoration: underline;
+}
+
+#underline-bold-text {
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+#subtitle-home-2 {
+  font-size: 13px;
+  text-align: center;
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+
+
+@media only screen and (max-device-width:1920px) {
+  .conatiner {
+  }
+
+  .footer {
+    top: 816px;
+
+    font-size: 17px;
+  }
+  #subtitle-home-2 {
+    text-align: center;
+    padding-top: 0rem;
+    top: 10%;
+    margin-left: 27%;
+    font-size: 19px;
+    text-decoration: underline;
+    font-weight: bold;
+  }
+
+  #subtitle-home-2_1 {
+    text-align: center;
+    font-size: 19px;
+  }
+
+  .download_btn {
+  appearance: none;
+  background-color: #000000;
+  border: 2px solid #1A1A1A;
+  border-radius: 15px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Roobert,-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+  font-size: 16px;
+  font-weight: 600;
+  line-height: normal;
+  margin: 0;
+  min-height: 60px;
+  min-width: 0;
+  outline: none;
+  padding: 16px 24px;
+  text-align: center;
+  text-decoration: none;
+  width: 41%;
+  position: absolute;
+  /* top: 30%; */
+  bottom: 30%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  transition: all .25s ease;
+  }
+
+  
+}
+
+.container2 {
+  margin: 0 auto;
+}
+
+
+.container2:after,
+.container2:before {
+  content: " ";
+  display: table
+}
+
+.container2:after {
+  clear: both
+}
+
+#center-text {
+  position: absolute;
+  align-self: center;
+  text-align: center;
+}
+
+html {
+  color: #222;
+  font-size: 1em;
+  line-height: 1.5;
+  box-sizing: border-box
+}
+
+body {
+  margin: 0;
+}
+
+a {
+  color: #777;
+  text-decoration: none;
+}
+
+p {
+  margin: 0 0 45px 0;
+  text-align: center;
+}
+
+.header {
+  width: 80%;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  font-family: Montserrat;
+  font-weight: 600;
+  color: #484848;
+  margin: 30px 0 25px 0;
+  line-height: 1.3
+}
+
+h1 {
+  text-align: center;
+}
+.container {
+  padding: 0 20px;
+  margin: 0 auto;
+  padding-bottom: 17.1rem;
+}
+
+.container:after,
+.container:before {
+  content: " ";
+  display: table
+}
+
+.container:after {
+  clear: both
+}
+
+.intro h1 {
+  color: #000;
+}
+
+.intro h1 strong {
+  color: #00d0ff
+}
+
+
+/* - link under - */
+
+.link-arrow:after {
+  content: '';
+  background-size: 100% 100%;
+  width: 16px;
+  height: 12px;
+  position: absolute;
+  top: 5px;
+  right: -28px;
+  -webkit-transition: all .4s cubic-bezier(.35, 1, .33, 1);
+  transition: all .4s cubic-bezier(.35, 1, .33, 1)
+}
+
+.link-arrow:hover:after {
+  right: -35px
+}
+
+.link-arrow.link-arrow-white:after {
+  background-size: 100% 100%
+}
+
+.link-arrow-hover:after {
+  right: -35px
+}
+
+.link {
+  display: inline-block;
+  position: relative;
+  border: none;
+  padding-bottom: 4px;
+  text-transform: uppercase;
+  font-family: Montserrat, helvetica, arial, sans-serif;
+  font-weight: 700
+}
+
+.link:active,
+.link:focus,
+.link:hover {
+  outline: 0
+}
+
+.link:before {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  background: #000;
+  width: 0;
+  height: 2px;
+  -webkit-transition: all .4s cubic-bezier(.35, 1, .33, 1);
+  transition: all .4s cubic-bezier(.35, 1, .33, 1)
+}
+
+.link:hover {
+  color: #000
+}
+
+.link:hover:before {
+  width: 100%
+}
+
+.link-theme:before {
+  background: #00ffc8
+}
+
+@media only screen and (min-width:250px) {
+  .main {
+    padding-top: 150px;
+  }
+  .container {
+    width: 80%;
+  }
+  h1 {
+    font-size: 30px;
+  }
+  h2 {
+    font-size: 20px;
+  }
+  
+@media only screen and (max-width:768px) {
+  .main {
+    padding-top: 150px;
+  }
+  .container {
+    width: 80%;
+  }
+  h1 {
+    font-size: 35px;
+  }
+  h2 {
+    font-size: 28px;
+  }
+  .footer {
+  }
+  .footer ul {
+    margin-top: 15px
+  }
+  .footer ul li {
+    display: inline-block;
+    margin: 0 0 0 10px
+  }
+ 
+  .footer .foot-content-left {
+    float: left
+  }
+  .footer .foot-content {
+    float: right
+  }
+}
+
+@media only screen and (min-width:992px) {
+  .container {
+    width: 80%;
+  }
+  h1 {
+    font-size: 38px;
+  }
+  h2 {
+    font-size: 28px;
+  }
+  .footer ul {
+    margin-top: 15px
+  }
+  .footer ul li {
+    display: inline-block;
+    margin: 0 0 0 10px
+  }
+ 
+  .footer .foot-content-left {
+    float: left
+  }
+  .footer .foot-content {
+    float: right
+  }
+
+}
+
+@media only screen and (min-width:1200px) {
+  .footer {
+  }
+  .footer ul {
+    margin-top: 15px
+  }
+  .footer ul li {
+    display: inline-block;
+    margin: 0 0 0 10px
+  }
+ 
+  .footer .foot-content-left {
+    float: left
+  }
+  .footer .foot-content {
+    float: right
+  }
+  .container {
+    width: 1160px;
+    width: 80%;
+  }
+  h1 {
+    font-size: 40px;
+  }
+  h2 {
+    font-size: 30px;
+  }
+
+}
+
+@media only screen and (min-width:1467px) {
+  .footer {
+  }
+  .footer ul {
+    margin-top: 15px
+  }
+  .footer ul li {
+    display: inline-block;
+    margin: 0 0 0 10px
+  }
+ 
+  .footer .foot-content-left {
+    float: left
+  }
+  .footer .foot-content {
+    float: right
+  }
+  .container {
+    width: 1160px;
+    width: 80%;
+  }
+  h1 {
+    font-size: 40px;
+  }
+  h2 {
+    font-size: 30px;
+  }
+
+  .download_btn {
+    bottom: 30%;
+
+  }
+
+}
+
+@media only screen and (min-width:1440px) {
+  .footer {
+  }
+  .footer ul {
+    margin-top: 15px
+  }
+  .footer ul li {
+    display: inline-block;
+    margin: 0 0 0 10px
+  }
+ 
+  .footer .foot-content-left {
+    float: left
+  }
+  .footer .foot-content {
+    float: right
+  }
+  .container {
+    width: 1160px;
+    width: 80%;
+  }
+  h1 {
+    font-size: 40px;
+  }
+  h2 {
+    font-size: 30px;
+  }
+
+  .download_btn {
+    bottom: 30%;
+
+  }
+
+}
+
+@media only screen and (min-width:513px) {
+  .footer {
+  }
+  .footer ul {
+    margin-top: 15px
+  }
+  .footer ul li {
+    display: inline-block;
+    margin: 0 0 0 10px
+  }
+ 
+  .footer .foot-content-left {
+    float: left
+  }
+  .footer .foot-content {
+    float: right
+  }
+  .container {
+    width: 1160px;
+    width: 80%;
+  }
+  h1 {
+    font-size: 40px;
+  }
+  h2 {
+    font-size: 30px;
+  }
+
+  .footer {
+    top: 1768px;
+  }
+
+}
+
+/* header    */
+
+.header {
+  background-color: #fff;
+  position: fixed;
+  width: 80%;
+  z-index: 3;
+  margin-left: 10%;
+  margin-right: 10%;
+  padding: 20px 0;
+}
+
+.header ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  overflow: hidden;
+  background-color: #fff;
+}
+
+.header li a {
+  display: block;
+  padding: 20px 20px 4px 20px;
+  text-decoration: none;
+}
+
+.header li a:hover,
+.header .menu-btn:hover {
+  background-color: #fff;
+}
+
+.header .logo {
+  
+  display: block;
+  float: left;
+  font-size: 2em;
+  padding: 2px 0px;
+  text-decoration: none;
+}
+
+/* menu */
+
+.header .menu {
+  clear: both;
+  max-height: 0;
+  transition: max-height .2s ease-out;
+}
+
+/* menu icon */
+
+.header .menu-icon {
+  cursor: pointer;
+  display: inline-block;
+  padding: 28px 20px;
+  position: relative;
+  user-select: none;
+}
+
+.header .menu-icon .navicon {
+  background: #333;
+  display: block;
+  height: 2px;
+  position: relative;
+  transition: background .2s ease-out;
+  width: 18px;
+}
+
+.header .menu-icon .navicon:before,
+.header .menu-icon .navicon:after {
+  background: #333;
+  content: '';
+  display: block;
+  height: 100%;
+  position: absolute;
+  transition: all .2s ease-out;
+  width: 100%;
+}
+
+.header .menu-icon .navicon:before {
+  top: 5px;
+}
+
+.header .menu-icon .navicon:after {
+  top: -5px;
+}
+
+/* menu btn */
+
+.header .menu-btn {
+  display: none;
+}
+
+.header .menu-btn:checked ~ .menu {
+  max-height: 240px;
+}
+
+.header .menu-btn:checked ~ .menu-icon .navicon {
+  background: transparent;
+}
+
+.header .menu-btn:checked ~ .menu-icon .navicon:before {
+  transform: rotate(-45deg);
+}
+
+.header .menu-btn:checked ~ .menu-icon .navicon:after {
+  transform: rotate(45deg);
+}
+
+.header .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:before,
+.header .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:after {
+  top: 0;
+}
+
+/* section */
+
+.section {
+  overflow: hidden;
+  margin: auto;
+  max-width: 1400px;
+}
+
+.section a {
+  position: relative;
+  float: left;
+  width: 100%;
+}
+
+.section a img {
+  width: 100%;
+  display: block;
+}
+
+.section a span {
+  color: #fff;
+  position: absolute;
+  left: 5%;
+  bottom: 5%;
+  font-size: 2em;
+  text-shadow: 1px 1px 0 #000;
+}
+
+.section-split a span {
+  display: none;
+}
+
+.section-split a:hover span {
+  display: block;
+}
+
+/* 48em = 768px */
+
+@media (min-width: 875px) {
+  .header li {
+    float: left;
+  }
+  .header li a {
+    padding: 20px 0px 0px 0px;
+    margin-left: 30px;
+  }
+  .header .menu {
+    clear: none;
+    float: right;
+    max-height: none;
+  }
+  .header .menu-icon {
+    display: none;
+  }
+}
+
+/* 48em = 768px */
+
+@media (max-device-width: 48em) {
+  .section-split a {
+    width: 50%;
+  }
+}
+
+.download_btn {
+  bottom: 39%;
+}
+
+
+.footer {
+  font-size: 14px;
+  /* padding: 40px 0;*/
+  color: #888;
+  
+  position: fixed;
+
+  font-size: 17px;
+  left: 0;
+  top: 85%;
+  bottom: 1px;
+  width: 100%;
+  background-color: white;
+}
+
+@media only screen and (max-device-width: 414px) {
+  .footer {
+    color: #888;
+    position: fixed;
+    left: 0;
+    top: 1700px;
+    width: 100%;
+}
+
+.foot-content {
+  color: #888;
+  position: fixed;
+  font-size: 2rem;
+  left: 50px;
+  top: 1850px;
+  width: 100%;
+}
+
+.foot-content-left {
+  color: #888;
+  position: fixed;
+  font-size: 2rem;
+  left: 210px;
+  top: 1700px;
+  width: 100%;
+}
+
+
+.download_btn {
+  bottom: 30%;
+
+  font-size: 2rem;
+  margin: 0.15rem;
+  width: fit-content;
+  padding: 1.9rem;
+
+}
+
+}
+
+
+
+
+.footer .container {
+  position: relative
+}
+
+.footer ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  margin-top: 35px
+}
+
+.footer ul li {
+  margin-bottom: 10px
+}
+
+.footer ul a {
+  display: inline-block;
+  position: relative;
+  border: none;
+  padding-bottom: 4px;
+  text-transform: uppercase;
+  color: #000;
+  font-family: Montserrat, helvetica, arial, sans-serif;
+  font-weight: 700;
+  font-family: Montserrat, helvetica, arial, sans-serif;
+  font-weight: 400;
+  color: #888;
+  text-transform: none
+}
+
+.footer ul a:active,
+.footer ul a:focus,
+.footer ul a:hover {
+  outline: 0
+}
+
+.footer ul a:before {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  background: #000;
+  width: 0;
+  height: 2px;
+  -webkit-transition: all .4s cubic-bezier(.35, 1, .33, 1);
+  transition: all .4s cubic-bezier(.35, 1, .33, 1)
+}
+
+.footer ul a:hover {
+  color: #000
+}
+
+.footer ul a:hover:before {
+  width: 100%
+}
+
+.footer ul a:before {
+  background: #00ffc8
+}
+
+.footer .col-logo .path-letter {
+  -webkit-transition: all .3s cubic-bezier(.35, 1, .33, 1);
+  transition: all .3s cubic-bezier(.35, 1, .33, 1);
+  opacity: 0;
+  -webkit-transform: translate3d(-10px, 0, 0);
+  transform: translate3d(-10px, 0, 0)
+}
+
+.footer .col-logo:hover .path-letter {
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+  opacity: 1
+}}
